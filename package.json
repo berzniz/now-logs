@@ -1,0 +1,19 @@
+{
+  "name": "now-logs",
+  "version": "0.0.4",
+  "description": "realtime logs for zeit's now without persistance",
+  "keywords": [],
+  "bin": {
+    "now-logs": "./bin/logs.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Tal Bereznitskey <berzniz@gmail.com> (http://berzniz.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "intercept-stdout": "^0.1.2",
+    "socket.io-client": "^1.7.2"
+  }
+}
