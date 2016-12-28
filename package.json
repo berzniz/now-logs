@@ -1,8 +1,13 @@
 {
   "name": "now-logs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "realtime logs for zeit's now",
-  "keywords": [],
+  "keywords": [
+    "now",
+    "logs",
+    "zeit"
+  ],
+  "repository": "berzniz/now-logs",
   "bin": {
     "now-logs": "./bin/logs.js"
   },
@@ -14,6 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "intercept-stdout": "^0.1.2",
-    "socket.io-client": "^1.7.2"
+    "socket.io-client": "^1.7.2",
+    "yargs": "^6.5.0"
   }
 }

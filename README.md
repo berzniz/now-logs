@@ -44,7 +44,12 @@ The secret-key is just a string you come up with. This will allow you and only t
 
 ### Is this open source?
 
-Yes. Check out the code of now-logs on GitHub and contribute: https://github.com/berzniz/now-logs
+Yes. Check out the code of [now-logs on GitHub](https://github.com/berzniz/now-logs) and contribute.
+
+### How does it work?
+*now-logs* uses websockets to stream all output of your server to the *now-logs-server* hosted at [logs.now.sh](https://logs.now.sh). The server then streams the logs to connected *now-logs* clients.
+
+While it is not required, you may host your own private *now-logs-server*. Learn more on the [now-logs-server GitHub page](https://github.com/berzniz/now-logs-server).
 
 ### Is this affiliated or endorsed by zeit.co?
 
