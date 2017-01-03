@@ -40,7 +40,7 @@ socket.on('connect', function() {
 
 socket.on('message', function(data) {
     try {
-        console.log(data && data.replace('\n', ''));
+        console.log(data && data.replace && data.replace('\n', ''));
     }
     catch (err) {
         console.error(err);
