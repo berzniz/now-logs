@@ -1,6 +1,6 @@
 {
   "name": "now-logs",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "realtime logs for zeit's now",
   "keywords": [
     "now",
